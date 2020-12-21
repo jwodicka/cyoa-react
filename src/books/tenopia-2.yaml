@@ -1,0 +1,462 @@
+title: Trapped in the Sea Kingdom
+author: Richard Brightfield
+publisher: Bantam Books
+year: 1986
+start: 1
+pages:
+  0:
+    type: illustration
+  1:
+    next: 11
+  2:
+    next: 4
+  3:
+    type: illustration
+  4:
+    type: map
+    next: 5
+  5:
+    type: map
+    next: 6
+  6:
+    ref: 7
+    next: 9
+  7:
+    type: map
+  8:
+    type: blank
+  9:
+    ref: 7
+    next:
+      17: go east
+      46: go south
+  10:
+    ref: 77
+    next:
+      84: swim out to the spaceship
+      73: swim along the border of the coral, just out of sight
+  11:
+    next: 2
+  12:
+    type: illustration
+  13:
+    next:
+      21: repeat visit
+      16: otherwise
+  14:
+    next: 15
+  15:
+    ref: 7
+    next:
+      41: continue on to Belopa's farm
+      96: turn around and go east again
+  16:
+    ref: 25
+    next: 
+      14: go back with Belopa
+      24: go south
+      28: go east
+  17:
+    ref: 7
+    next:
+      22: keep going east
+      105: go north along the wall
+      20: go south along the wall
+  18:
+    next: 19
+  19:
+    ref: 43
+    next:
+      38: swim toward the island
+      73: swim around the island
+  20:
+    next: 23
+  21:
+    ref: 25
+    next:
+      24: head south
+      28: head east
+  22:
+    next: 13
+  23:
+    ref: 59
+    next:
+      48: go through the gateway
+      61: go around the city to the west
+  24:
+    next: 48
+  25:
+    type: map
+  26:
+    type: blank
+  27:
+    next: 48
+  28:
+    next:
+      32: get inside the clam
+      13: let the barracas capture you
+  29:
+    type: illustration
+  30:
+    next: 13
+  31:
+    next:
+      95: stay aboard the Potkosian ship
+      106: dive overboard and swim for it
+  32:
+    next:
+      45: repeat visit
+      33: otherwise
+  33:
+    ref: 25
+    next:
+      42: head east
+      96: head north
+      27: head south
+  34:
+    next:
+      114: repeat visit
+      36: otherwise
+  35:
+    next: 76
+  36:
+    next: 86
+  37:
+    type: illustration
+  38:
+    next:
+      65: repeat visit
+      40: otherwise
+  39:
+    type: illustration
+  40:
+    ref: 43
+    next:
+      30: go toward Potkose
+      10: go toward Zondice
+  41:
+    ref: 7
+    next:
+      17: go east
+      46: go south
+  42:
+    ref: 43
+    next:
+      38: take a chance and go to the island
+      47: swim around it to the east
+      27: swim south
+  43:
+    type: map
+  44:
+    type: blank
+  45:
+    ref: 25
+    next:
+      42: head east
+      27: head south
+  46:
+    ref: 59
+    next:
+      23: follow the road
+      123: decide to leave the road and swim to the east 
+  47:
+    next:
+      84: swim toward the ship
+      128: swim away from it
+  48:
+    next:
+      69: repeat visit
+      52: otherwise
+  49:
+    type: illustration
+  50:
+    next: 51
+  51:
+    ref: 59
+    next:
+      58: swim back to the city wall
+      22: swim out in the open water
+  52:
+    next: 57
+  53:
+    next: 54
+  54:
+    next: 55
+  55:
+    next: 56
+  56:
+    ref: 63
+    next:
+      123: swim toward the Coral Castle
+      62: swim toward the Dome City of the Gorns
+  57:
+    next: 53
+  58:
+    ref: 59
+    next:
+      66: swim toward the lights
+      98: swim away from the lights
+  59:
+    type: map
+  60:
+    type: blank
+  61:
+    next:
+      75: repeat visit
+      50: otherwise
+  62:
+    ref: 63
+    next:
+      66: swim toward the lights
+      10: go away from them to the east
+  63:
+    type: map
+  64:
+    type: blank
+  65:
+    ref: 43
+    next:
+      89: go toward Zondice
+      96: go toward Potkose
+  66:
+    next:
+      103: repeat visit
+      67: otherwise
+  67:
+    next: 74
+  68:
+    next: 72
+  69:
+    ref: 59
+    next:
+      61: go west, toward the Recordkeeper's House
+      62: go east
+  70:
+    ref: 121
+    next: 66
+  71:
+    ref: 43
+    next: 34
+  72:
+    ref: 63
+    next:
+      41: head back to the Sea Farms
+      35: go east
+  73:
+    ref: 43
+    next:
+      28: swim with the current
+      108: swim against the current
+  74:
+    next: 80
+  75:
+    ref: 59
+    note: This page has no outbound link. This is probably an oversight!
+          Narrative says you go back to the city wall, which is plausibly a link to 58.
+          The first time you encounter the Recordkeeper, you can swim to the city wall afterward,
+          which leads to 58.
+    next: 58
+  76:
+    ref: 77
+    next:
+      10: swim west around the Sea Mounts
+      89: head east
+  77:
+    type: map
+  78:
+    type: blank
+  79:
+    next:
+      71: if you have the square
+      113: otherwise
+  80:
+    next: 81
+  81:
+    next: 68
+  82:
+    ref: 125
+    next: 102
+  83:
+    ref: 43
+    next: 34
+  84:
+    next: 102
+  85:
+    type: illustration
+  86:
+    next: 31
+  87:
+    next: 13
+  88:
+    type: illustration
+  89:
+    next:
+      79: repeat visit
+      94: otherwise
+  90:
+    next: 93
+  91:
+    next:
+      118: swim to the surface
+      62: continue swimming west
+  92:
+    ref: 43
+    next:
+      115: head toward the Tunnel Cave
+      118: head toward the islands
+  93:
+    ref: 77
+    next:
+      71: go toward Potkose
+      83: head east
+  94:
+    next:
+      90: give Zorna your computer
+      87: don't give her your computer
+  95:
+    next: 82
+  96:
+    next:
+      124: repeat visit
+      107: otherwise
+  97:
+    type: illustration
+  98:
+    ref: 25
+    next:
+      105: head toward the Cavern of the Dekatrons
+      41: decide to follow the wall
+  99:
+    ref: 125
+    next:
+      70: go through the Land of Snakes to the shallows
+      101: go through the Land of the Lolps to the deeps
+      120: go through the Land of the Lolps to the shallows
+      133: go through the Land of the Snakes to the deeps
+  100:
+    next:
+      30: go in the tunnel marked ?ARRA?A?
+      96: go in the one marked ?RA??
+      66: go in the one marked ??R??
+      42: go in the one marked ?A?ARA
+  101:
+    ref: 121
+    next: 22
+  102:
+    ref: 43
+    next:
+      134: repeat visit
+      38: approach the island
+      96: swim away from the island
+  103:
+    ref: 63
+    next:
+      96: go north
+      89: go east
+  104:
+    type: illustration
+  105:
+    next:
+      92: repeat visit
+      18: otherwise
+  106:
+    next:
+      99: obey the creature
+      98: run back and dive into the water
+  107:
+    ref: 125
+    next:
+      115: go west
+      108: go north
+  108:
+    ref: 125
+    next:
+      115: go west
+      128: go south
+  109:
+    next: 110
+  110:
+    type: illustration
+    next: 130
+  111:
+    type: illustration
+  112:
+    ref: 121
+    next:
+      131: swim to Sraa
+      119: swim to Bara
+  113:
+    next: 83
+  114:
+    next:
+      99: obey the creature
+      98: run quickly and dive back into the water
+  115:
+    next:
+      100: repeat visit
+      117: otherwise
+  116:
+    type: illustration
+  117:
+    next:
+      30: go in the tunnel marked ?ARRA?A?
+      96: go in the one marked ?RA??
+      66: go in the one marked ??R??
+      42: go in the one marked ?A?ARA
+  118:
+    ref: 43
+    next:
+      96: swim toward the south
+      115: swim north
+  119:
+    ref: 121
+    next: 66
+  120:
+    ref: 121
+    next: 96
+  121:
+    type: map
+  122:
+    type: blank
+  123:
+    ref: 63
+    next:
+      62: go south
+      22: go north
+  124:
+    ref: 125
+    next:
+      108: go south
+      115: go west
+  125:
+    type: map
+  126:
+    type: blank
+  127:
+    ref: 121
+    next:
+      109: swim over to the creature
+      112: investigate the other opening
+  128:
+    ref: 43
+    next:
+      73: continue swimming underwater
+      118: head up to the surface of the water
+  129:
+    type: illustration
+  130:
+    type: end
+  131:
+    next: 84
+  132:
+    type: illustration
+  133:
+    ref: 121
+    next:
+      119: go toward Bara
+      127: go toward Saba
+      131: go toward Sraa
+  134:
+    next:
+      91: swim toward the surface
+      128: dive deep and swim hard

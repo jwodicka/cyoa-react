@@ -1,0 +1,379 @@
+title: Circus of Fear
+author: Rose Estes
+publisher: TSR
+year: 1983
+start: 5
+pages:
+  5:
+    next: 7
+  6:
+    type: illustration
+  7:
+    next: 8
+  8:
+    next: 9
+  9:
+    next: 11
+  10:
+    type: illustration
+  11:
+    next: 12
+  12:
+    next: 14
+  13:
+    type: illustration
+  14:
+    next: 15
+  15:
+    next:
+      47: Since you like animals, you could learn to train them. 
+      103: You could learn to be trapeze artists.
+      86: You could work with the sideshow.
+  16:
+    next: 17
+  17:
+    next:
+      148: "...let's leave while we still can."
+      32: "...we should find a place to sleep tonight and stay."
+  18:
+    type: bad-end
+  19:
+    next: 21
+  20:
+    type: illustration
+  21:
+    next:
+      123: If you want to try to bluff your way through
+      142: If you want to let Petra do something
+      97: If you are too scared to do anything but run away
+  22:
+    next: 23
+  23:
+    type: end
+  24:
+    next: 25
+  25:
+    next:
+      36: Use the crystal tear and call the pegasus.
+      93: Rap on the wall in a pattern that no animal would use.
+      143: Give up and wait to see what happens.
+  26:
+    next: 28
+  27:
+    type: illustration
+  28:
+    next:
+      135: \"Petra, we have to do something. Let's try to get them down onto the trapeze.\"
+      148: \"Bombax planned this,\" says Petra. \"If we go up, we're as good as dead. I say it's time to leave.\"
+      116: \"It's time to use the tear,\" Petra says.
+  29:
+    next: 30
+  30:
+    next:
+      64: You could go back and ask her what she wanted.
+      133: Or you could hide nearby and watch her for a while before you decide.
+  31:
+    type: bad-end
+  32:
+    next: 34
+  33:
+    type: illustration
+  34:
+    next: 35
+  35:
+    next: 131
+  36:
+    type: end
+  37:
+    next:
+      149: We can get to the officials during the griffon act.
+      84: We can use the cats and pray they obey us.
+      98: We can use Caspius and hope we can control him.
+  38:
+    next: 39
+  39:
+    next: 40
+  40:
+    next:
+      29: You can try to escape.
+      56: You can go with the fortune-teller and take your chances.
+  41:
+    type: illustration
+  42:
+    next: 43
+  43:
+    next: 44
+  44:
+    next:
+      76: We could sleep under the wagon.
+      141: Let's sleep in the woods over there.
+      32: Why don't we find out where the roustabouts sleep?
+  45:
+    next: 46
+  46:
+    type: end
+  47:
+    next: 49
+  48:
+    type: illustration
+  49:
+    next: 50
+  50:
+    next: 51
+  51:
+    next: 53
+  52:
+    type: illustration
+  53:
+    next: 54
+  54:
+    next:
+      62: \"Run!\" you gasp, yanking at Petra's hand. 
+      82: \"I'm not afraid! Romney says I have the gift! I'll take care of this!\" says Petra.
+      144: \"Cats love to chase things that run. Stand still!\" you hiss.
+  55:
+    type: illustration
+  56:
+    next: 57
+  57:
+    next:
+      24: \"We could yell and bang on the door,\" suggests Petra. \"Maybe someone would hear us.\"
+      45: \"We could set fire to the wagon and hope that someone comes before we burn up,\" he says.
+      143: \"We could just wait and hope Helix and Momo come looking for us,\" you say.
+  58:
+    next:
+      18: you are too afraid to do anything but run away
+      71: grab Rebus Romney's dagger and try to fight the 'net'
+  59:
+    type: bad-end
+  60:
+    next:
+      148: "...let's leave while we still can."
+      32: "...we should find a place to sleep tonight and stay."
+
+  62:
+    next: 63
+  63:
+    next:
+      139: \"We can't trust ANYONE,\" insists Petra. \"Let's leave.\"
+      127: \"I think we should stay,\" you say.
+  64:
+    next: 65
+  65:
+    next: 66
+  66:
+    next: 68
+  67:
+    type: illustration
+  68:
+    type: end
+  69:
+    next: 70
+  70:
+    next:
+      147: You can let go and hope that you can avoid the lurker.
+      60: You can hang on and hope for help.
+      16: You can grab the crystal tear and call the pegasus.
+  71:
+    next: 73
+  72:
+    type: illustration
+  73:
+    next: 37
+  74:
+    next: 75
+  75:
+    next:
+      83: Tell Helix. He'll know what to do.
+      140: Use the crystal tear
+      59: Run for it. There's no way we can win.
+  76:
+    next: 77
+  77:
+    type: bad-end
+  78:
+    next:
+      19: If you want to start right away
+      38: If you want to explore for a while
+  79:
+    type: end
+  80:
+    type: illustration
+  81:
+    type: illustration
+  82:
+    type: bad-end
+  83:
+    next:
+      157: Try to rescue Petra yourself
+      106: Go for help
+  84:
+    next: 85
+  85:
+    type: bad-end
+  86:
+    next: 88
+  87:
+    type: illustration
+  88:
+    next: 89
+  89:
+    next: 90
+  90:
+    next: 91
+  91:
+    next: 92
+  92:
+    next:
+      78: We can be living mummies in the sideshow.
+      47: We can go back and be animal trainers.
+      103: Or we can be trapeze artists.
+  93:
+    type: end
+  94:
+    type: illustration
+  95:
+    next: 96
+  96:
+    next:
+      112: We can leave, get away before they kill us, and try to warn the king.
+      37: Or we can stay and tell Romney what's happening.
+  97:
+    type: bad-end
+  98:
+    next: 99
+  99:
+    next: 101
+  100:
+    type: illustration
+  101:
+    next: 102
+  102:
+    type: end
+  103:
+    next: 104
+  104:
+    next: 105
+  105:
+    next:
+      47: \"We can become animal trainers,\" says Petra.
+      86: \"We can work in the sideshow.\"
+      108: \"Or we can stay right here and be trapeze artists,\" you say.
+  106:
+    type: end
+  107:
+    type: illustration
+  108:
+    next: 109
+  109:
+    next: 110
+  110:
+    next: 111
+  111:
+    next:
+      69: We can do it the way Bombax says and take our chances.
+      42: We can try to figure out a way to disarm the lurker.
+      112: Or we can get out before Bombax kills us.
+  112:
+    next: 114
+  113:
+    type: illustration
+  114:
+    next: 115
+  115:
+    type: end
+  116:
+    next: 117
+  117:
+    next: 118
+  118:
+    type: end
+  119:
+    next: 121
+  120:
+    type: illustration
+  121:
+    next: 122
+  122:
+    type: end
+  123:
+    next: 74
+  124:
+    next: 125
+  125:
+    type: end
+
+  126:
+    type: illustration
+  127:
+    next: 128
+  128:
+    next: 130
+  129:
+    type: illustration
+  130:
+    next:
+      58: \"Don't move, Laela. I'll tangle it up in this,\" cries Petra as he spies a large gray net.
+      31: \"Run, Laela!\" Petra orders. \"There's nothing we can do.\"
+      95: \"I'll use the tear!\" you cry.
+  131:
+    next: 132
+  132:
+    next:
+      26: \"I say do nothing\," says Petra. \"He's not very nice to us. Let him take care of himself."
+      155: \"I can't just stand here and watch. I'm going to try to warn him.\"
+  133:
+    next: 134
+  134:
+    type: end
+  135:
+    next: 136
+  136:
+    next: 138
+  137:
+    type: illustration
+  138:
+    next:
+      22: If you want to try to get the king's attention and tell him what is really happening
+      124: If you want to try to rescue the king yourself
+
+  139:
+    type: bad-end
+  140:
+    next:
+      79: You can live with us, far from hurtful man.
+      119: Or if you decide that you cannot leave the world of man, we will grant you one last wish.
+  141:
+    next: 131
+  142:
+    next: 74
+  143:
+    type: bad-end
+  144:
+    next: 146
+  145:
+    type: illustration
+  146:
+    next: 127
+  147:
+    type: bad-end
+  148:
+    type: bad-end
+  149:
+    next: 150
+  150:
+    next: 151
+  151:
+    next: 153
+  152:
+    type: illustration
+  153:
+    next: 154
+  154:
+    type: end
+  155:
+    next: 26
+  156:
+    type: illustration
+  157:
+    type: end

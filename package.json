@@ -6,10 +6,19 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "cytoscape": "^3.17.0",
+    "cytoscape-avsdf": "^1.0.0",
+    "cytoscape-cola": "^2.4.0",
+    "cytoscape-dagre": "^2.3.2",
+    "cytoscape-fcose": "^1.2.3",
+    "cytoscape-klay": "^3.1.4",
+    "cytoscape-spread": "^3.0.0",
+    "react": "0.0.0-experimental-4ead6b530",
+    "react-dom": "0.0.0-experimental-4ead6b530",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "yaml": "^2.0.0-1"
   },
   "scripts": {
     "start": "react-scripts start",

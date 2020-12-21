@@ -1,0 +1,81 @@
+title: House of Danger
+author: R. A. Montgomery
+publisher: Chooseco
+year: 2006 (revised) 1982 (original)
+start: 1
+pages:
+  1:
+    next: 2
+  2:
+    next: 6
+  3:
+    next: 10
+  4:
+    next: 9
+  5:
+    type: illustration
+  6:
+    next: 7
+  7:
+    next:
+      4: go immediately to the address from the phone-tracing machine
+      13: give Ricardo and Lisa a chance to call back
+
+  9:
+    next:
+      3: rush to give aid to the old man
+      29: make a hasty retreat to your car
+  10:
+    next:
+      14: come back later and sneak in from a different direction
+      63: call the police and report a possible murder
+  11:
+    next: 16
+  12:
+    next: 24
+    
+  14:
+    next: 12
+  
+  16:
+    type: end
+  17:
+    type: illustration
+
+  24:
+    next: 11
+  25:
+    type: illustration
+
+  63:
+    next:
+      64: follow his instructions and wait in the car
+      77: go back for another look
+  64:
+    next:
+      65: keep waiting for the sergeant
+      79: let Ricardo and Lisa talk you into going up to the House
+  65:
+    next: 67
+  66:
+    type: illustration
+  67:
+    next: 68
+  68:
+    next:
+      72: stay with the old man and try to help him
+      97: go in search of help
+  
+  72:
+    next:
+      73: explore the old prison complex first
+      75: escape immediately with the old man
+  73:
+    next: 74
+  74:
+    type: end
+  75:
+    next: 81
+
+  81:
+    type: end
