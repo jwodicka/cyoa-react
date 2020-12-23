@@ -1,17 +1,26 @@
-import { useState } from 'react';
-import Cytoscape from './Cytoscape';
+import { Suspense, useState } from 'react';
 
-const GraphExplorer = ({library}) => {
+import BookGraph from './BookGraph';
+
+const BookSelector = ({ library, book, updateBook }) => (
+  <select id='books' value={book} onChange={(e) => updateBook(e.target.value)}>
+    {library.map((record, i) => {
+      const book = record.read();
+      return (<option key={book.title} value={i}>{book.title}</option>);
+    })}
+  </select>
+)
+
+const GraphExplorer = ({ library }) => {
   const [layout, updateLayout] = useState('cola');
   const [book, updateBook] = useState();
 
-  console.log(book);
-  const elts = (book == null) ? [] : library[book].elements;
+  console.log("library", library);
 
   return (
     <div>
       <div id="chart">
-        <Cytoscape elements={elts} layoutName={layout} />
+        {book ? (<BookGraph book={library[book].read()} layout={layout} />) : null}
       </div>
       <select value={layout} onChange={(e) => updateLayout(e.target.value)}>
         <option value='grid'>Grid</option>
@@ -21,13 +30,9 @@ const GraphExplorer = ({library}) => {
         <option value='dagre'>DAGRE</option>
         <option value='klay'>Klay</option>
       </select>
-      <select id='books' value={book} onChange={(e) => updateBook(e.target.value)}>
-        {library.map((record, i) => {
-          if (typeof record === 'string')
-            return (<option key={i}>Loading</option>)
-          return (<option key={record.title} value={i}>{record.title}</option>);
-        })}
-      </select>
+      <Suspense fallback={<h4>loading...</h4>}>
+        <BookSelector library={library} book={book} updateBook={updateBook} />
+      </Suspense>
     </div>
   )
 }

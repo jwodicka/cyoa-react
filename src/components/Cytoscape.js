@@ -71,6 +71,8 @@ const Graph = ({elements, layoutName="cola"}) => {
   const graph = React.useRef();
   const layout = React.useRef();
 
+  console.log("elements", elements);
+
   const setCurrentLayout = (name) => {
     if (name === 'cola') {
       layout.current = graph.current.makeLayout({
